@@ -1,43 +1,34 @@
-# GhostDDoS
-
-**GhostDDoS** is a multithreaded stress testing script written in Python.  
-It allows sending a large number of HTTP requests to a specified target URL using random user agents and a large proxy list.
-
-> ⚠️ **Warning:** This tool is intended **only for educational and testing purposes** on your own servers or with explicit permission. Unauthorized use may be illegal and unethical.
+# GhostDDoS💻
+**GhostDDoS** this program is designed for DoS and DDoS attacks, designed to infect and destroy sites.
 
 ---
 
-## 🚀 Features
+## 🚀Features
 
 - Multithreaded HTTP request sender
 - Customizable number of requests
 - Randomized user-agent headers
-- Predefined proxy list
 - Clean command-line banner with colorized output
+- Selects optimal settings for attack
 
 ---
 
-## 📦 Requirements
-
-Install the required Python packages before running the script:
-
+## 📦 Installation & Usage
 ```bash
-pip install requests colorama pystyle
+git clone https://github.com/Ghostoraner/GhostDDoS.git
+cd GhostDDoS
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python main.py
 ```
+---
 
-▶️ How to Use
+## ✅ Conclusion
+- Author: Ghostoraner
+- Сommunication: reinsss21@gmail.com
 
-python ddos.py
+---
 
-You'll be prompted to:
-
-Enter the target URL
-
-Enter the number of requests to send
-
-
-
-👤 Author
-
-GhostRunner
-Gmail - reinsss21@gmail.com 
+© 2026 Ghostoraner  
+Released under the MIT License.
